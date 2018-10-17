@@ -24,7 +24,6 @@ Usage:
 
 ~$ ./pw_generator.py As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a monstrous vermin
 ~$ 5746A9B!3b3830@3
-
 ```
 
 
