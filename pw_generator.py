@@ -6,6 +6,7 @@
 # password managers, and/or prefer to memorize several short strings instead
 # of a password
 #
+# python implementation
 # Usage: ./pw_generator.py hello entire world
 #------------------------------------------------------------------------------
 
@@ -30,7 +31,7 @@ else:
     joined_args = ''.join(args)
     # hash function only takes in byte obj
     byte_args = str.encode(joined_args + SALT)
-    hash_obj = hashlib.sha256(byte_args)
+    hash_obj = hashlib.sha256(byte_args)  # see hashlib docs for alternatives
     hash_res = hash_obj.hexdigest()[:16]
 
     # subs in special char
