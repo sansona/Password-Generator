@@ -1,5 +1,5 @@
 # Password-Generator
-Simple password generator for those who don't trust password managers and are able to remember several keywords
+Simple password generator for those who don't trust password managers and are able to remember several keywords. Implementations in python & C++, will do more languages later for practice.
 
 Features: generates secure password by hashing various keywords with settings user chooses. Password is unique to 
 settings/keyword combination, valid for almost all password requirements, and not susceptible to dictionary/brute force attacks.
@@ -9,12 +9,12 @@ password using the script, remember those keywords, and generate the password us
 
 Keywords can either be a sentence, paragraph, or a random string of keywords.
 
-Setup: 
+Setup (for python): 
 ```
 ~$ chmod 755 pw_generator.py
 ```
 
-Usage:
+Usage (for python):
 ```
 ~$ ./pw_generator.py salt pepper cumin
 ~$ E!00670!d05a75@a
@@ -24,6 +24,12 @@ Usage:
 
 ~$ ./pw_generator.py As Gregor Samsa awoke one morning from uneasy dreams he found himself transformed in his bed into a monstrous vermin
 ~$ 5746A9B!3b3830@3
+```
+
+Usage (for C++):
+```
+~$ ./pw_generator salt pepper cumin
+~$ E!00670!d05a75@a
 ```
 
 
